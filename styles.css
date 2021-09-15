@@ -24,6 +24,7 @@ ul {
 .header {
     justify-content: space-between;
     padding-right: 30px;
+    margin: -10px -10px;
 }
 
 .logo {
@@ -46,6 +47,7 @@ ul {
     justify-content: center;
     gap: 60px;
     padding: 50px;
+    margin: 0px -10px;
 }
 
 .text-content {
@@ -74,6 +76,10 @@ h1 {
     border-width: 0px;
     font-size: 14px;
     font-weight: 700;
+}
+
+.top-button:hover {
+    background-color: #2272f1;
 }
 
 .block-1-img {
@@ -172,6 +178,10 @@ h2 {
     padding: 10px 30px;
     align-items: center;
     font-weight: 600;
+}
+
+.bottom-button:hover {
+    background-color: #2272f1;
 }
 
 .footer {
