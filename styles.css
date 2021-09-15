@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-size: 16px;
 }
 
 a {
@@ -55,7 +56,6 @@ ul {
 }
 
 h1 {
-    text-align: center;
     color: #f9faf8;
 }
 
@@ -102,7 +102,9 @@ h2 {
 
 .container {
     display: flex;
-    margin-top: 40px;
+    justify-content: center;
+    margin: 40px;
+    gap: 40px;
 }
 
 .info {
@@ -120,6 +122,7 @@ h2 {
 .info .text {
     text-align: center;
     color: #1F2937;
+    width: 200px;
 }
 
 .block-3 {
@@ -130,11 +133,15 @@ h2 {
 
 .quote {
     font-style: italic;
+    font-size: 24px;
+    font-family: "Lucida Handwriting", cursive, serif;
+    margin: 0px 100px;
 }
 
 .quoted {
     font-weight: 600;
     text-align: end;
+    font-family: monospace;
 }
 
 .block-4 {
